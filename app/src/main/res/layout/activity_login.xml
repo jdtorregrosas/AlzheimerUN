@@ -9,6 +9,7 @@
         android:padding="48dp"
         android:layout_gravity="center"
         >
+
         <EditText
             android:id="@+id/edit_login_email"
             android:layout_width="match_parent"
@@ -27,5 +28,14 @@
             android:layout_height="wrap_content"
             android:text="@string/login_button_text"
             android:onClick="signIn"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_createAccount_link"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_recoverPassword_link"/>
     </LinearLayout>
 </FrameLayout>
